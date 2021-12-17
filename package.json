@@ -1,0 +1,21 @@
+{
+  "name": "nodejs_todo",
+  "version": "1.0.0",
+  "description": "A learning application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "debug":"node inspect index.js"
+  },
+  "author": "haris487",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^6.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
