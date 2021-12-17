@@ -1,6 +1,12 @@
-## Setup instructions
+# Prerequisites 
 
-Copy the environment
+* Node v14
+
+# Setup instructions
+
+## Create Mongodb connection string
+
+Copy the environment file
 
 ```sh
 cp .env.example .env
@@ -19,3 +25,7 @@ Replace the
 * DATABASENAME
 
 with actual values got from mongodb cluster or replace the complete DB_CONNECT connection string
+
+## Install
+
+npm install
